@@ -1,0 +1,10 @@
+a=[10,89,9,56,4,80,8]
+small=a[0]
+large=a[0]
+for i in range(len(a)):
+    if a[i]>large:
+        large=a[i]
+    if a[i]<small:
+        small=a[i]
+print("large no is :",large)
+print("small no is :",small)
