@@ -1,0 +1,5 @@
+a=[10,89,9,56,4,80,8]
+count=0
+for i in range(len(a)):
+    count=count+1
+print(count)
