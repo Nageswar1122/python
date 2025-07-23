@@ -1,0 +1,8 @@
+a=[10,89,9,56,4,80,8]
+left=0
+right=len(a)-1
+while left<right:
+    a[left],a[right]=a[right],a[left]
+    left=left+1
+    right=right-1
+print(a)
