@@ -1,0 +1,7 @@
+a=[10,89,9,56,4,80,8]
+ans=0
+for i in range(len(a)):
+    ans=ans+a[i]
+    sum=ans/len(a) #total sum/no of elements in array
+print(ans)
+print(sum)
