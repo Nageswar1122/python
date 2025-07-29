@@ -1,0 +1,11 @@
+a=[10,89,9,56,4,80,8]
+ans=a[0]
+ans2=a[0]
+for i in range(len(a)):
+    if a[i]>ans:
+        ans2=ans
+        ans=a[i]
+    elif ans>a[i]>ans2:
+        ans2=a[i]
+print(ans2)
+        
