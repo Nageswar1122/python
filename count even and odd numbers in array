@@ -1,0 +1,10 @@
+a=[10,89,9,56,4,80,8]
+even=0
+odd=0
+for i in range(len(a)):
+    if a[i]%2==0:
+        even=even+1
+    else:
+        odd=odd+1
+print("even numbers :",even)
+print("odd numbers :",odd)
